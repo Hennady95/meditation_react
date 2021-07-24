@@ -3,10 +3,12 @@ import meditation from './source/img/icon/meditation-icon.png'
 import yoga from './source/img/icon/yoga-icon.png'
 import sound from './source/img/icon/sound-icon.png'
 import practice_img from './source/img/background/practice-background.png'
+import musicGirls from './source/img/music-girls.png'
 
 import {Navigation} from './components/navigation'
 import {SimpleButton} from './components/simpleBtn'
 import {Card} from './components/card'
+import {AudioContainer} from './components/audioContainer'
 
 function App() {
   return (
@@ -44,7 +46,16 @@ function App() {
         </div>
       </div>
       <div className = "music">
-        
+        <p className = "music_title">Take a Deep Breath</p>
+        <p className = "music_text">“Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore.”</p>
+        <div className = "audio-container">
+            <div className = "audio">
+              <AudioContainer name = "Turning off Auto Pilot" artist = "Intriduction, Strees Assesment"/>
+              <AudioContainer name = "Turning off Auto Pilot" artist = "Intriduction, Strees Assesment"/>
+              <AudioContainer name = "Turning off Auto Pilot" artist = "Intriduction, Strees Assesment"/>
+            </div>
+            <img src = {musicGirls} alt = "music meditation"/>
+        </div>
       </div>
     </div>
   );

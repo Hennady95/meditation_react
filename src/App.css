@@ -199,3 +199,48 @@
   line-height: 130%;
   color: rgba(0, 0, 0, 0.5);
 }
+
+.music {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: url('./source/img/background/music-background.png') center / cover no-repeat;
+}
+
+.music_title {
+  margin-bottom: 22px;
+  font-family: Merienda One;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 54px;
+  line-height: 130%;
+  text-align: center;
+  color: #000000;
+}
+
+.music_text {
+  width: 1105px;
+  font-family: Heebo;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 130%;
+  text-align: center;
+  color: rgba(0, 0, 0, 0.5);
+}
+
+.audio-container {
+  display: flex;
+}
+
+.audio-container > img {
+  width: 923px;
+  height: 941px;
+}
+
+.audio {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+}
