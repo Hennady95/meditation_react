@@ -1,0 +1,7 @@
+.navigation {
+  width: 1920px;
+  height: 130px;
+  background: #FFFFFF;
+  -webkit-box-shadow: 0px 25px 40px rgba(26, 127, 114, 0.1);
+          box-shadow: 0px 25px 40px rgba(26, 127, 114, 0.1);
+}
