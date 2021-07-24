@@ -1,5 +1,5 @@
 import './style.css'
 
-export const SimpleButton = ({text, width, height}) => {
-    return <div className = "simple-btn" style = {{height: height, width: width}}>{text}</div>
+export const SimpleButton = ({text, width, height, center}) => {
+    return <button className = {`simple-btn ${center && 'center'}`} style = {{height: height, width: width}}>{text}</button>
 }
