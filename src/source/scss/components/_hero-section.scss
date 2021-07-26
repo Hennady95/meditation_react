@@ -1,0 +1,41 @@
+.hero-section {
+    position: relative;
+    height: 1195px;
+    padding: 70px 0 0 0;
+    background: url('../img/background/header_background.png') center / cover no-repeat;
+  }
+  
+  .hero-section_title {
+    width: 758px;
+    margin: 0 auto;
+    font-family: Merienda One;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 68px;
+    line-height: 130%;
+    text-align: center;
+    color: #FFFFFF;
+    text-transform: capitalize;
+  }
+  
+  .hero-section_text {
+    width: 1109px;
+    margin: 22px auto 0;
+    font-family: Heebo;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 130%;
+    text-align: center;
+    color: rgba(0, 0, 0, 0.5);
+  }
+  
+  .hero-section::after {
+    position: absolute;
+    content: '';
+    bottom: 0;
+    left: calc(50% - 298px);
+    width: 591px;
+    height: 558px;
+    background: url('../img/header_girl.png') center / cover no-repeat;
+  }

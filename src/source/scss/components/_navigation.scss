@@ -48,3 +48,44 @@
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
 }
+
+.hamburger {
+    display: none;
+    padding: 10px;
+    align-items: center;
+    width: 50px;
+    height: 50px;
+    box-shadow: 0 0 4px 1px #1A7F72;
+    border-radius: 10px;
+}
+
+.line {
+    position: relative;
+    display: block;
+    height: 5px;
+    width: 100%;
+    background-color: #1A7F72;
+    border-radius: 10px;
+}
+
+.line::before {
+    position: absolute;
+    content: '';
+    top: - 10px;
+    left: 0;
+    height: 5px;
+    width: 100%;
+    background-color: #1A7F72;
+    border-radius: 10px;
+}
+
+.line::after {
+    position: absolute;
+    content: '';
+    left: 0;
+    bottom: -10px;
+    height: 5px;
+    width: 100%;
+    background-color: #1A7F72;
+    border-radius: 10px;
+}

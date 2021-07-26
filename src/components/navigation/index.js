@@ -1,4 +1,4 @@
-import './style.css'
+import '../../source/style/main.css'
 
 export const Navigation = () => {
     return <div className = "navigation">
@@ -11,5 +11,6 @@ export const Navigation = () => {
             <li>Privacy</li>
             <li>Services</li>
         </ul>
+        <div className = "hamburger"><span className = "line"></span></div>
     </div>
 }

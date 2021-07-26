@@ -1,4 +1,4 @@
-import './style.css'
+import '../../source/style/main.css'
 
 export const AudioContainer = ({name,artist}) => {
     return <div className = "audio-cover">

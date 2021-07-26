@@ -1,0 +1,192 @@
+.audio-cover {
+    margin: 25px 0;
+    display: flex;
+    width: 650px;
+    height: 150px;
+    background: linear-gradient(90deg, #C3E2DE 27.22%, #CFF1ED 48.89%, #EDFBF9 96.77%);
+    border-radius: 15px;
+}
+
+.cover-shadow {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: 100%;
+    padding: 30px 35px 32px 40px;
+    background: url('../img/background/voice.png') center /cover no-repeat;
+}
+
+.audio-name {
+    margin-bottom: 10px;
+    font-family: Heebo;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 47px;
+    color: rgba(0, 0, 0, 0.8);
+}
+
+.audio-artist {
+    font-family: Heebo;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 130%;
+    color: rgba(0, 0, 0, 0.5);
+}
+
+.playBtn {
+    position: relative;
+    width: 80px;
+    height: 80px;
+    background: linear-gradient(180deg, #259385 0%, #159685 100%);
+    box-shadow: 0px 25px 30px rgba(179, 228, 221, 0.3), 0px 9px 24px rgba(26, 127, 114, 0.23);
+    border:none;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.playBtn::after {
+    position: absolute;
+    content: '';
+    top: 29px;
+    left: 32px;
+    width: 0px;
+    height: 0px;
+    border-left: 22px solid #FFFFFF;
+    border-top: 13px solid transparent;
+    border-bottom: 13px solid transparent;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 420px;
+    height: 540px;
+    padding: 50px 48px;
+    background: #C4C4C4;
+    border-radius: 20px;
+}
+
+.menu-icon {
+    width: 100px;
+    height: 100px;
+    margin-bottom: 20px;
+}
+
+.card-text {
+    width: 324px;
+    height: 92px;
+    font-family: Heebo;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 130%;
+    text-align: center;
+    color: #000000;
+}
+
+.simple-btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 30px 0;
+    font-family: Heebo;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 30px;
+    line-height: 130%;
+    text-align: center;
+    color: #FFFFFF;
+    background: linear-gradient(180deg, #259385 0%, #159685 100%);
+    box-shadow: 0px 20px 40px rgba(21, 113, 101, 0.2);
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+}
+
+.center {
+    margin: 30px auto;
+}
+
+.skill-card-left {
+    margin: 20px 0px;
+    padding: 25px 35px 25px 79px;
+    width: 597px;
+    height: 200px;
+    text-align: right;
+    background: linear-gradient(270deg, #C3EEE8 26.37%, rgba(195, 226, 222, 0.75) 63.87%, rgba(231, 243, 242, 0.4) 103.6%);
+    border-radius: 15px;
+}
+
+.skill-card-right {
+    margin: 20px 0;
+    padding: 25px 79px 25px 35px;
+    width: 597px;
+    height: 200px;
+    text-align: left;
+    background: linear-gradient(90deg, #C3EEE8 26.37%, rgba(195, 226, 222, 0.75) 63.87%, rgba(231, 243, 242, 0.4) 103.6%);
+    border-radius: 15px;
+}
+
+.skill-title {
+    font-family: Heebo;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 47px;
+    text-transform: capitalize;
+    color: rgba(0, 0, 0, 0.8);
+}
+
+.skill-text {
+    font-family: Heebo;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 130%;
+    color: rgba(0, 0, 0, 0.5);
+}
+
+.left-image {
+    width: 100%;
+    display: flex;
+    margin: 15px 0;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.right-image {
+    width: 100%;
+    display: flex;
+    margin: 30px 0;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row-reverse;
+}
+
+.item-image {
+    width: 703px;
+    height: 554px;
+}
+
+.item-title {
+    margin-bottom: 17px;
+    font-family: Heebo;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 47px;
+    color: rgba(0, 0, 0, 0.8);
+}
+
+.item-text {
+    width: 619px;
+    font-family: Heebo;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 130%;
+    color: rgba(0, 0, 0, 0.5);
+}

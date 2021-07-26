@@ -1,0 +1,36 @@
+.transform {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 134px 200px;
+    background: url('../img/background/transform-background.png') 0 0 / cover no-repeat;
+  }
+  
+  .transform-title {
+    width: 578px;
+    margin-bottom: 22px;
+    font-family: Merienda One;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 54px;
+    line-height: 130%;
+    text-align: center;
+    text-transform: capitalize;
+    color: #000000;
+  }
+  
+  .transform-title > span {
+    text-transform: lowercase;
+  }
+  
+  .transform-text {
+    width: 1105px;
+    margin-bottom: 70px;
+    font-family: Heebo;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 130%;
+    text-align: center;
+    color: rgba(0, 0, 0, 0.5);
+  }

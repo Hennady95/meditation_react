@@ -1,0 +1,91 @@
+.practice {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 77px 150px 61px;
+    background: url('../img/background/practice-flower-background.png') right no-repeat;
+  }
+  
+  .practice_title {
+    width: 706px;
+    margin-bottom: 22px;
+    font-family: Merienda One;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 54px;
+    line-height: 130%;
+    text-align: center;
+    color: #000000;
+  }
+  
+  .practice_text {
+    width: 1105px;
+    height: 62px;
+    margin-bottom: 70px;
+    font-family: Heebo;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 130%;
+    text-align: center;
+    color: rgba(0, 0, 0, 0.5);
+  }
+  
+  .practice_list_container {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+  }
+  
+  .practice_list_container > img {
+    width: 745px;
+    height: 594px;
+  }
+  
+  .practice_list {
+    list-style: none;
+  }
+  
+  .practice_list > li {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 717px;
+    padding: 35px 0px 35px 50px;
+  }
+  
+  .practice_list > li:hover {
+    position: relative;
+    background: url('../img/background/practice_list-background.png') center / cover no-repeat;
+  }
+  
+  .practice_list > li:hover::before {
+    position: absolute;
+    content: '';
+    right: 67px;
+    bottom: 23px;
+    height: 24px;
+    width: 102px;
+    background: url('../img/arrow.png') center/cover no-repeat;
+  }
+  
+  .practice_list_title {
+    margin-bottom: 10px;
+    font-family: Heebo;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 47px;
+    text-align: center;
+    color: rgba(0, 0, 0, 0.8);
+  }
+  
+  .practice_list_text {
+    width: 619px;
+    font-family: Heebo;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 130%;
+    color: rgba(0, 0, 0, 0.5);
+  }

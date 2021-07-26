@@ -41,18 +41,22 @@
     display: block;
     width: 55px;
     height: 55px;
-    background: url('../../source/img/icon/facebook-icon.png') center / cover no-repeat;
+    background: url('../img/icon/facebook-icon.png') center / cover no-repeat;
 }
 
 .social-link > li:nth-child(2) {
     display: block;
     width: 55px;
     height: 55px;
-    background: url('../../source/img/icon/instagram-icon.png') center / cover no-repeat;
+    background: url('../img/icon/instagram-icon.png') center / cover no-repeat;
 }
 .social-link > li:nth-child(3) {
     display: block;
     width: 55px;
     height: 55px;
-    background: url('../../source/img/icon/twitter-icon.png') center / cover no-repeat;
+    background: url('../img/icon/twitter-icon.png') center / cover no-repeat;
 }
+
+.footer > .logo {
+    margin: 40px;
+  }

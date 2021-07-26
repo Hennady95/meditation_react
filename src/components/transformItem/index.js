@@ -1,4 +1,4 @@
-import './style.css'
+import '../../source/style/main.css'
 import {SimpleButton} from '../simpleBtn'
 
 export const TransformItem = ({img, title, text, leftPosition}) => {
