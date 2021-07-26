@@ -1,6 +1,210 @@
-@media (max-width: 360px) {
+@media screen and (max-width: 1376px ) {
     .wrapper {
-        max-width: 360px;
+        max-width: 100%;
+    }
+
+    .navigation {
+        padding: 15px 70px;
+        width: 100%;
+
+        .logo {
+            width: 109px;
+            height: 80px;
+        }
+
+        .navigation-menu {
+            font-size: 20px;
+        }
+
+        .navigation-menu > li:hover::after {
+            bottom: -34px;
+        }
+
+    }
+
+    .hero-section {
+        height: 1050px;
+        padding-top: 90px;
+    }
+
+    .main-menu {
+        justify-content: center;
+        padding: 50px 150px;        
+    }
+
+    .practice {
+        width: 100%;
+        padding: 10px 20px 20px;
+
+        &_list > li {
+            width: 500px;
+            height: 180px;
+            padding: 15px 0px 15px 30px;
+            margin: 0px 40px;
+        }
+
+        &_list > li:hover {
+            background: url('../img/background/practice_list-background.png') center / cover no-repeat;
+            background-size: 520px 250px;
+        }
+
+        &_list > li:hover::before {
+            right: 54px;
+            bottom: 20px;
+            height: 16px;
+            width: 70px;
+        }
+
+        &_list_title {
+            font-size: 30px;
+            line-height: 32px;
+        }
+          
+        &_list_text {
+            width: 400px;
+            font-size: 20px;
+        }
+        
+    }
+
+    .music {
+        
+        .audio-container > img {
+            width: 723px;
+            height: 741px;
+        }
+
+        .audio-cover {
+            margin: 35px 0;
+            width: 450px;
+            height: 100px;
+        }
+        
+        .cover-shadow {
+            align-items: center;
+            padding: 15px 30px;
+        }
+        
+        .audio-name {
+            margin-bottom: 5px;
+            font-size: 24px;
+            line-height: 27px;
+        }
+        
+        .audio-artist {
+            font-size: 20px;
+        }
+        
+        .playBtn {
+            width: 40px;
+            height: 40px;
+        }
+        
+        .playBtn::after {
+            top: 13px;
+            left: 16px;
+            border-left: 11px solid #FFFFFF;
+            border-top: 6px solid transparent;
+            border-bottom: 7px solid transparent;
+        }
+    }
+
+    .meditation {
+        padding: 45px 20px;
+
+        &-text {
+            margin-bottom: 30px;
+        }
+
+        .skill-card-left {
+            margin: 20px 0px;
+            width: 500px;
+            height: max-content;
+        }
+
+        .skill-card-right {
+            margin: 20px 0px;
+            width: 500px;
+            height: max-content;
+        }
+
+        .skill-title {
+            font-size: 26px;
+            line-height: 29px;
+        }
+
+        .skill-text {
+            font-size: 20px;
+        }
+
+        .meditation-skills::after {
+            left: calc(50% - 140px);
+            height: 758px;
+            width: 320px;
+          }
+    }
+
+    .transform {
+        padding: 34px 200px;
+
+        &-text {
+            margin-bottom: 30px;
+        }
+        
+        .item-image {
+            width: 503px;
+            height: 354px;
+        }
+        
+        .item-title {
+            margin-bottom: 15px;
+            font-size: 28px;
+            line-height: 30px;
+        }
+        
+        .item-text {
+            width: 450px;
+            font-size: 20px;
+        }
+    }
+
+    .footer {
+
+        padding: 50px 0 20px;
+        
+        &-menu > li {
+            margin-top: 5px;
+        }
+        
+        .social-link > li {
+            margin: 10px;
+        }
+        
+        .social-link > li:nth-child(1) {
+            width: 45px;
+            height: 45px;
+        }
+        
+        .social-link > li:nth-child(2) {
+            width: 45px;
+            height: 45px;
+        }
+        .social-link > li:nth-child(3) {
+            width: 45px;
+            height: 45px;
+        }
+        
+        .logo {
+            width: 109px;
+            height: 80px;
+            margin-bottom: 20px;
+        }
+    }
+}
+
+@media screen and (max-width: 415px ) {
+    .wrapper {
+        max-width: 100%;
     }
 
     .navigation {
@@ -243,6 +447,212 @@
             width: 320px;
             margin-bottom: 20px;
             font-size: 12px;
+        }
+
+        .left-image {
+            flex-direction: column;
+        }
+        
+        .right-image {
+            flex-direction: column;
+        }
+        
+        .item-image {
+            width: 301px;
+            height: 227px;
+            margin-bottom: 20px;
+        }
+        
+        .item-title {
+            margin-bottom: 5px;
+            font-size: 24px;
+            line-height: 27px;
+        }
+        
+        .item-text {
+            width: 300px;
+            font-size: 12px;
+        }
+    }
+
+    .footer {
+        padding: 20px 0 10px;
+
+        &-menu {
+            display: flex;
+            flex-wrap: wrap;
+            list-style: none;
+            justify-content: center;
+        }
+        
+        &-menu > li {
+            width: 80px;
+            margin-top: 5px;
+            font-size: 14px;
+            line-height: 16px;
+        }
+        
+        .footer-menu > li:nth-child(5) {
+            border: none;
+        }
+        
+        .social-link {
+            display: flex;
+            list-style: none;
+        }
+        
+        .social-link > li {
+            margin: 10px;
+        }
+        
+        .social-link > li:nth-child(1) {
+            width: 25px;
+            height: 25px;
+        }
+        
+        .social-link > li:nth-child(2) {
+            width: 25px;
+            height: 25px;
+        }
+        .social-link > li:nth-child(3) {
+            width: 25px;
+            height: 25px;
+        }
+        
+        .logo {
+            width: 67px;
+            height: 55px;
+            margin: 20px;
+        }
+    }
+}
+
+@media screen and (max-width: 320px ) {
+
+    .hero-section {
+        height: 620px;
+        padding-top: 90px;
+
+        &_title {
+            width: 300px;
+            font-size: 34px;
+        }
+
+        &_text {
+            width: 300px;
+            font-size: 12px;
+        }
+
+        &::after {
+            left: calc(50% - 60px);
+            width: 125px;
+            height: 159px;
+        }
+    }
+
+    .practice {
+       
+        &_title {
+            width: 300px;
+        }
+
+        &_text {
+            width: 300px;
+        }
+
+        
+        &_list_container > img {
+            width: 295px;
+        }
+
+        &_list > li {
+            margin: 0;
+            width: 290px;
+        }
+       
+    }
+
+    .music {
+      
+        &_title {
+            width: 300px;
+        }
+
+        &_text {
+            width: 300px;
+        }
+        
+        .audio-container > img {
+            width: 280px;
+        }
+
+        .audio-cover {
+            width: 290px;
+        }
+
+    }
+
+    .meditation {
+        padding: 45px 20px;
+
+        &-title {
+            width: 300px;
+            font-size: 34px;
+        }
+
+        &-text {
+            width: 300px;
+            margin-bottom: 20px;
+            font-size: 12px;
+        }
+
+        &-skills {
+            display: flex;
+          
+            flex-wrap: wrap;
+            justify-content: space-between;
+            align-items: center;
+            position: relative;
+            width: 100%;
+            height: max-content;
+          }
+          
+        &-skills::after {
+            display: none;
+        }
+
+        .skill-card-left {
+            margin: 20px 0px;
+            padding: 5px 15px;
+            width: 320px;
+            height: max-content;
+        }
+
+        .skill-card-right {
+            margin: 20px 0px;
+            padding: 5px 15px;
+            width: 320px;
+            height: max-content;
+        }
+
+        .skill-title {
+            font-size: 16px;
+            line-height: 20px;
+        }
+
+        .skill-text {
+            font-size: 12px;
+        }
+    }
+
+    .transform {
+
+        &-title {
+            width: 300px;
+        }
+
+        &-text {
+            width: 300px;
         }
 
         .left-image {
