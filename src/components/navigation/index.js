@@ -1,6 +1,6 @@
 import '../../source/style/main.css'
 
-export const Navigation = () => {
+export const Navigation = ({show,setShow}) => {
     return <div className = "navigation">
         <a><span className = "logo"></span></a>
         <ul className = "navigation-menu">
@@ -11,6 +11,6 @@ export const Navigation = () => {
             <li>Privacy</li>
             <li>Services</li>
         </ul>
-        <div className = "hamburger"><span className = "line"></span></div>
+        <div className = "hamburger" onClick = {() => setShow(!show)}><span className = {`${show ? 'line active' : 'line'}`}></span></div>
     </div>
 }
