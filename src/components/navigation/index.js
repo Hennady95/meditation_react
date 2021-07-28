@@ -11,6 +11,9 @@ export const Navigation = ({show,setShow}) => {
             <li>Privacy</li>
             <li>Services</li>
         </ul>
-        <div className = "hamburger" onClick = {() => setShow(!show)}><span className = {`${show ? 'line active' : 'line'}`}></span></div>
+        <div className = "hamburger" onClick = {() => {
+            setShow(!show);
+            document.getElementsByTagName('body')[0].style.overflow = show ? 'auto' : 'hidden';
+            }}><span className = {`${show ? 'line active' : 'line'}`}></span></div>
     </div>
 }

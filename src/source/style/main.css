@@ -775,7 +775,6 @@ textarea {
   height: 50px;
   -webkit-box-shadow: 0 0 4px 1px #1A7F72;
           box-shadow: 0 0 4px 1px #1A7F72;
-  border-radius: 10px;
 }
 
 .line {
@@ -821,14 +820,14 @@ textarea {
 
 .line.active::before {
   top: 0px;
-  -webkit-transform: rotate(45deg);
-          transform: rotate(45deg);
+  -webkit-transform: rotate(-135deg);
+          transform: rotate(-135deg);
 }
 
 .line.active::after {
   bottom: 0;
-  -webkit-transform: rotate(-45deg);
-          transform: rotate(-45deg);
+  -webkit-transform: rotate(135deg);
+          transform: rotate(135deg);
 }
 
 .hero-section {

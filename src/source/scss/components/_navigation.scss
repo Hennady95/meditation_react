@@ -56,7 +56,6 @@
     width: 50px;
     height: 50px;
     box-shadow: 0 0 4px 1px #1A7F72;
-    border-radius: 10px;
 }
 
 .line {
@@ -99,10 +98,10 @@
 
 .line.active::before {
     top: 0px;
-    transform: rotate(45deg);
+    transform: rotate(-135deg);
 }
 
 .line.active::after {
     bottom: 0;
-    transform: rotate(-45deg);
+    transform: rotate(135deg);
 }
