@@ -2,7 +2,7 @@ import '../../source/style/main.css'
 
 export const Navigation = ({show,setShow}) => {
     return <div className = "navigation">
-        <a><span className = "logo"></span></a>
+        <a href = "/#"><span className = "logo"></span></a>
         <ul className = "navigation-menu">
             <li>Home</li>
             <li>Explore</li>
