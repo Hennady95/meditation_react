@@ -4,6 +4,7 @@
 @import './config/component-style';
 @import './config/config';
 @import './config/reset';
+@import './config/media';
 
 @import './components/burgerMenu';
 @import './components/navigation';
@@ -14,5 +15,3 @@
 @import './components/meditation';
 @import './components/transform';
 @import './components/footer';
-
-@import './media/media';
