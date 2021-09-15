@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/meditation_react/static/css/main.73a2b853.chunk.css",
-    "main.js": "/meditation_react/static/js/main.93b1a559.chunk.js",
-    "main.js.map": "/meditation_react/static/js/main.93b1a559.chunk.js.map",
+    "main.css": "/meditation_react/static/css/main.99dc9c09.chunk.css",
+    "main.js": "/meditation_react/static/js/main.a9317a0f.chunk.js",
+    "main.js.map": "/meditation_react/static/js/main.a9317a0f.chunk.js.map",
     "runtime-main.js": "/meditation_react/static/js/runtime-main.7b0a7d04.js",
     "runtime-main.js.map": "/meditation_react/static/js/runtime-main.7b0a7d04.js.map",
     "static/js/2.f70f055b.chunk.js": "/meditation_react/static/js/2.f70f055b.chunk.js",
@@ -10,12 +10,12 @@
     "static/js/3.b5efe9ac.chunk.js": "/meditation_react/static/js/3.b5efe9ac.chunk.js",
     "static/js/3.b5efe9ac.chunk.js.map": "/meditation_react/static/js/3.b5efe9ac.chunk.js.map",
     "index.html": "/meditation_react/index.html",
-    "static/css/main.73a2b853.chunk.css.map": "/meditation_react/static/css/main.73a2b853.chunk.css.map",
+    "static/css/main.99dc9c09.chunk.css.map": "/meditation_react/static/css/main.99dc9c09.chunk.css.map",
     "static/js/2.f70f055b.chunk.js.LICENSE.txt": "/meditation_react/static/js/2.f70f055b.chunk.js.LICENSE.txt",
-    "static/media/main.css": "/meditation_react/static/media/voice.d8780e59.webp",
+    "static/media/main.css": "/meditation_react/static/media/voice.17b15f19.webp",
     "static/media/meditation-icon.f2fa405b.webp": "/meditation_react/static/media/meditation-icon.f2fa405b.webp",
     "static/media/music-girls.1468d9c1.webp": "/meditation_react/static/media/music-girls.1468d9c1.webp",
-    "static/media/practice-background.c7ce14bb.webp": "/meditation_react/static/media/practice-background.c7ce14bb.webp",
+    "static/media/practice-background.3f0822af.webp": "/meditation_react/static/media/practice-background.3f0822af.webp",
     "static/media/sound-icon.5a4c2951.webp": "/meditation_react/static/media/sound-icon.5a4c2951.webp",
     "static/media/transform-girl_fitness.1dcd0abd.webp": "/meditation_react/static/media/transform-girl_fitness.1dcd0abd.webp",
     "static/media/transform-girl_twisted.ecc3033e.webp": "/meditation_react/static/media/transform-girl_twisted.ecc3033e.webp",
@@ -24,7 +24,7 @@
   "entrypoints": [
     "static/js/runtime-main.7b0a7d04.js",
     "static/js/2.f70f055b.chunk.js",
-    "static/css/main.73a2b853.chunk.css",
-    "static/js/main.93b1a559.chunk.js"
+    "static/css/main.99dc9c09.chunk.css",
+    "static/js/main.a9317a0f.chunk.js"
   ]
 }
