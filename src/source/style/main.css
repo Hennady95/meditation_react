@@ -211,6 +211,8 @@
 .item-image {
   width: 703px;
   height: 554px;
+  -o-object-fit: contain;
+     object-fit: contain;
 }
 
 .item-title {
@@ -948,6 +950,8 @@ textarea {
 .practice_list_container > img {
   width: 745px;
   height: 594px;
+  -o-object-fit: contain;
+     object-fit: contain;
 }
 
 .practice_list {
@@ -1050,6 +1054,8 @@ textarea {
 .audio-container > img {
   width: 923px;
   height: 941px;
+  -o-object-fit: contain;
+     object-fit: contain;
 }
 
 .audio {
