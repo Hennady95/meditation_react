@@ -2,7 +2,7 @@ import '../../source/style/main.css';
 
 export const Footer = () => {
     return <div className = "footer">
-        <a href = "/#"><span className = "logo"></span></a>
+        <a href = "/#"><span className = "logo">Meditation</span></a>
         <ul className = "footer-menu">
             <li>Home</li>
             <li>Explore</li>

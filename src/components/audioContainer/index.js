@@ -7,7 +7,7 @@ export const AudioContainer = ({name,artist}) => {
                 <p className = "audio-name">{name}</p>
                 <p className = "audio-artist">{artist}</p>
             </div>
-            <button className = "playBtn"></button>
+            <button aria-label = "play" className = "playBtn"></button>
         </div>
     </div>
 }

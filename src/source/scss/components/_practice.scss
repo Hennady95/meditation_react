@@ -3,7 +3,7 @@
     flex-direction: column;
     align-items: center;
     padding: 77px 150px 61px;
-    background: url('../img/background/practice-flower-background.png') right no-repeat;
+    background: url('../img/background/practice-flower-background.webp') right no-repeat;
   }
   
   .practice_title {
@@ -56,7 +56,7 @@
   
   .practice_list > li:hover {
     position: relative;
-    background: url('../img/background/practice_list-background.png') center / cover no-repeat;
+    background: url('../img/background/practice_list-background.webp') center / cover no-repeat;
   }
   
   .practice_list > li:hover::before {
@@ -66,7 +66,7 @@
     bottom: 23px;
     height: 24px;
     width: 102px;
-    background: url('../img/arrow.png') center/cover no-repeat;
+    background: url('../img/arrow.webp') center/cover no-repeat;
   }
   
   .practice_list_title {

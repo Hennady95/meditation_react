@@ -3,7 +3,7 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    background: url('../../source/img/background/footer-background.png') center / cover no-repeat;
+    background: url('../../source/img/background/footer-background.webp') center / cover no-repeat;
 }
 
 .footer-menu {
@@ -41,20 +41,20 @@
     display: block;
     width: 55px;
     height: 55px;
-    background: url('../img/icon/facebook-icon.png') center / cover no-repeat;
+    background: url('../img/icon/facebook-icon.webp') center / cover no-repeat;
 }
 
 .social-link > li:nth-child(2) {
     display: block;
     width: 55px;
     height: 55px;
-    background: url('../img/icon/instagram-icon.png') center / cover no-repeat;
+    background: url('../img/icon/instagram-icon.webp') center / cover no-repeat;
 }
 .social-link > li:nth-child(3) {
     display: block;
     width: 55px;
     height: 55px;
-    background: url('../img/icon/twitter-icon.png') center / cover no-repeat;
+    background: url('../img/icon/twitter-icon.webp') center / cover no-repeat;
 }
 
 .footer > .logo {

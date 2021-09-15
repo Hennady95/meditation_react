@@ -21,7 +21,7 @@
   width: 100%;
   height: 100%;
   padding: 30px 35px 32px 40px;
-  background: url("../img/background/voice.png") center/cover no-repeat;
+  background: url("../img/background/voice.webp") center/cover no-repeat;
 }
 
 .audio-name {
@@ -644,7 +644,7 @@ textarea {
   display: block;
   width: 99px;
   height: 60px;
-  background: url("../../source/img/logo.png") center/cover no-repeat;
+  background: url("../../source/img/logo.webp") center/cover no-repeat;
   background-size: 80%;
 }
 
@@ -724,7 +724,8 @@ textarea {
   display: block;
   width: 139px;
   height: 110px;
-  background: url("../../source/img/logo.png") center/cover no-repeat;
+  background: url("../../source/img/logo.webp") center/cover no-repeat;
+  font-size: 0px;
 }
 
 .navigation-menu {
@@ -834,7 +835,7 @@ textarea {
   position: relative;
   height: 1195px;
   padding: 70px 0 0 0;
-  background: url("../img/background/header_background.png") center/cover no-repeat;
+  background: url("../img/background/header_background.webp") center/cover no-repeat;
 }
 
 .hero-section_title {
@@ -869,7 +870,7 @@ textarea {
   left: calc(50% - 298px);
   width: 591px;
   height: 558px;
-  background: url("../img/header_girl.png") center/cover no-repeat;
+  background: url("../img/header_girl.webp") center/cover no-repeat;
 }
 
 .main-menu {
@@ -883,15 +884,15 @@ textarea {
 }
 
 .main-menu > .card:nth-child(1) {
-  background: url("../img/background/main-menu-first-background.png") center/cover no-repeat;
+  background: url("../img/background/main-menu-first-background.webp") center/cover no-repeat;
 }
 
 .main-menu > .card:nth-child(2) {
-  background: url("../img/background/main-menu-second-background.png") center/cover no-repeat;
+  background: url("../img/background/main-menu-second-background.webp") center/cover no-repeat;
 }
 
 .main-menu > .card:nth-child(3) {
-  background: url("../img/background/main-menu-thirst-background.png") center/cover no-repeat;
+  background: url("../img/background/main-menu-thirst-background.webp") center/cover no-repeat;
 }
 
 .practice {
@@ -906,7 +907,7 @@ textarea {
       -ms-flex-align: center;
           align-items: center;
   padding: 77px 150px 61px;
-  background: url("../img/background/practice-flower-background.png") right no-repeat;
+  background: url("../img/background/practice-flower-background.webp") right no-repeat;
 }
 
 .practice_title {
@@ -970,7 +971,7 @@ textarea {
 
 .practice_list > li:hover {
   position: relative;
-  background: url("../img/background/practice_list-background.png") center/cover no-repeat;
+  background: url("../img/background/practice_list-background.webp") center/cover no-repeat;
 }
 
 .practice_list > li:hover::before {
@@ -980,7 +981,7 @@ textarea {
   bottom: 23px;
   height: 24px;
   width: 102px;
-  background: url("../img/arrow.png") center/cover no-repeat;
+  background: url("../img/arrow.webp") center/cover no-repeat;
 }
 
 .practice_list_title {
@@ -1015,7 +1016,7 @@ textarea {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  background: url("../img/background/music-background.png") center/cover no-repeat;
+  background: url("../img/background/music-background.webp") center/cover no-repeat;
 }
 
 .music_title {
@@ -1079,7 +1080,7 @@ textarea {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  background: url("../img/background/meditation-background.png") center/cover no-repeat;
+  background: url("../img/background/meditation-background.webp") center/cover no-repeat;
 }
 
 .meditation-title {
@@ -1129,7 +1130,7 @@ textarea {
   left: calc(50% - 170px);
   height: 802px;
   width: 339px;
-  background: url("../img/meditation-girl.png") center/cover no-repeat;
+  background: url("../img/meditation-girl.webp") center/cover no-repeat;
 }
 
 .transform {
@@ -1144,7 +1145,7 @@ textarea {
       -ms-flex-align: center;
           align-items: center;
   padding: 134px 200px;
-  background: url("../img/background/transform-background.png") 0 0/cover no-repeat;
+  background: url("../img/background/transform-background.webp") 0 0/cover no-repeat;
 }
 
 .transform-title {
@@ -1188,7 +1189,7 @@ textarea {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  background: url("../../source/img/background/footer-background.png") center/cover no-repeat;
+  background: url("../../source/img/background/footer-background.webp") center/cover no-repeat;
 }
 
 .footer-menu {
@@ -1230,21 +1231,21 @@ textarea {
   display: block;
   width: 55px;
   height: 55px;
-  background: url("../img/icon/facebook-icon.png") center/cover no-repeat;
+  background: url("../img/icon/facebook-icon.webp") center/cover no-repeat;
 }
 
 .social-link > li:nth-child(2) {
   display: block;
   width: 55px;
   height: 55px;
-  background: url("../img/icon/instagram-icon.png") center/cover no-repeat;
+  background: url("../img/icon/instagram-icon.webp") center/cover no-repeat;
 }
 
 .social-link > li:nth-child(3) {
   display: block;
   width: 55px;
   height: 55px;
-  background: url("../img/icon/twitter-icon.png") center/cover no-repeat;
+  background: url("../img/icon/twitter-icon.webp") center/cover no-repeat;
 }
 
 .footer > .logo {
@@ -1289,7 +1290,7 @@ textarea {
     padding: 15px 0px 15px 30px;
   }
   .practice_list > li:hover {
-    background: url("../img/background/practice_list-background.png") center/cover no-repeat;
+    background: url("../img/background/practice_list-background.webp") center/cover no-repeat;
     background-size: 520px 250px;
   }
   .practice_list > li:hover::before {
@@ -1502,7 +1503,7 @@ textarea {
     height: 314px;
   }
   .practice_list > li:hover {
-    background: url("../img/background/practice_list-background.png") center/cover no-repeat;
+    background: url("../img/background/practice_list-background.webp") center/cover no-repeat;
     background-size: 520px 250px;
   }
   .practice_list > li:hover::before {
@@ -2193,3 +2194,4 @@ textarea {
     margin: 20px;
   }
 }
+/*# sourceMappingURL=main.css.map */
