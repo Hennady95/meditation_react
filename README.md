@@ -1,5 +1,4 @@
-# Getting Started
+# Get Started
 
 npm -i
-
 npm start
