@@ -138,7 +138,7 @@
 .skill-card-left {
   margin: 20px 0px;
   padding: 25px 35px 25px 79px;
-  max-width: 47%;
+  max-width: 39%;
   /*597px;*/
   height: 200px;
   text-align: right;
@@ -150,7 +150,7 @@
 .skill-card-right {
   margin: 20px 0;
   padding: 25px 79px 25px 35px;
-  max-width: 47%;
+  max-width: 39%;
   /*597px;*/
   height: 200px;
   text-align: left;
