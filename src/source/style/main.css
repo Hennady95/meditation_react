@@ -2009,7 +2009,7 @@ textarea {
     line-height: 27px;
   }
   .transform .item-text {
-    width: 300px;
+    max-width: 300px;
     font-size: 12px;
   }
   .footer {
@@ -2064,16 +2064,37 @@ textarea {
 }
 
 @media screen and (max-width: 320px) {
+  .navigation {
+    position: fixed;
+    padding: 10px 15px;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    width: 100%;
+    z-index: 5;
+  }
+  .navigation .logo {
+    width: 67px;
+    height: 55px;
+  }
+  .navigation .navigation-menu {
+    display: none;
+  }
+  .navigation .hamburger {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
   .hero-section {
     height: 620px;
     padding-top: 90px;
   }
   .hero-section_title {
-    width: 300px;
+    max-width: 300px;
     font-size: 34px;
   }
   .hero-section_text {
-    width: 300px;
+    max-width: 300px;
     font-size: 12px;
   }
   .hero-section::after {
@@ -2081,18 +2102,41 @@ textarea {
     width: 125px;
     height: 159px;
   }
+  .main-menu {
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+  .main-menu .card {
+    max-width: 300px;
+  }
+  .practice {
+    padding: 0;
+  }
   .practice_title {
-    width: 300px;
+    max-width: 300px;
   }
   .practice_text {
-    width: 300px;
+    max-width: 300px;
+    font-size: 12px;
+  }
+  .practice_list_container {
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
   }
   .practice_list_container > img {
-    width: 295px;
+    max-width: 295px;
   }
   .practice_list > li {
     margin: 0;
+    padding: 0 25px;
     width: 290px;
+  }
+  .practice_list > li:hover {
+    background: #FFFFFF;
+  }
+  .practice_list > li:hover::before {
+    right: 6px;
+    bottom: 4px;
   }
   .music_title {
     width: 300px;
@@ -2100,11 +2144,30 @@ textarea {
   .music_text {
     width: 300px;
   }
+  .music .audio-container {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: reverse;
+        -ms-flex-direction: column-reverse;
+            flex-direction: column-reverse;
+  }
   .music .audio-container > img {
     width: 280px;
   }
   .music .audio-cover {
-    width: 290px;
+    max-width: 290px;
+    margin: 10px 0;
+  }
+  .music .cover-shadow {
+    padding: 10px;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .music .cover-shadow .audio-name {
+    font-size: 18px;
+  }
+  .music .cover-shadow .audio-artist {
+    font-size: 15px;
   }
   .meditation {
     padding: 45px 20px;
@@ -2119,19 +2182,6 @@ textarea {
     font-size: 12px;
   }
   .meditation-skills {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -ms-flex-wrap: wrap;
-        flex-wrap: wrap;
-    -webkit-box-pack: justify;
-        -ms-flex-pack: justify;
-            justify-content: space-between;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
-    position: relative;
-    width: 100%;
     height: -webkit-max-content;
     height: -moz-max-content;
     height: max-content;
@@ -2142,7 +2192,7 @@ textarea {
   .meditation .skill-card-left {
     margin: 20px 0px;
     padding: 5px 15px;
-    width: 320px;
+    max-width: 100%;
     height: -webkit-max-content;
     height: -moz-max-content;
     height: max-content;
@@ -2150,7 +2200,7 @@ textarea {
   .meditation .skill-card-right {
     margin: 20px 0px;
     padding: 5px 15px;
-    width: 320px;
+    max-width: 100%;
     height: -webkit-max-content;
     height: -moz-max-content;
     height: max-content;
@@ -2162,11 +2212,16 @@ textarea {
   .meditation .skill-text {
     font-size: 12px;
   }
+  .transform {
+    padding: 10px;
+  }
   .transform-title {
-    width: 300px;
+    /*width: 300px;*/
+    font-size: 34px;
   }
   .transform-text {
-    width: 300px;
+    /*width: 300px;*/
+    font-size: 12px;
   }
   .transform .left-image {
     -webkit-box-orient: vertical;
@@ -2181,9 +2236,13 @@ textarea {
             flex-direction: column;
   }
   .transform .item-image {
-    width: 301px;
+    /*width: 301px;*/
+    max-width: 80%;
     height: 227px;
     margin-bottom: 20px;
+  }
+  .transform .image-information {
+    max-width: 80%;
   }
   .transform .item-title {
     margin-bottom: 5px;
@@ -2191,7 +2250,7 @@ textarea {
     line-height: 27px;
   }
   .transform .item-text {
-    width: 300px;
+    /*width: 300px;*/
     font-size: 12px;
   }
   .footer {
