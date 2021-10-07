@@ -54,8 +54,8 @@
         }
 
         &_list > li:hover::before {
-            right: 54px;
-            bottom: 20px;
+            right: 20px;
+            bottom: 10px;
             height: 16px;
             width: 70px;
         }
@@ -304,8 +304,8 @@
         }
 
         &_list > li:hover::before {
-            right: 54px;
-            bottom: 20px;
+            /*right: 54px;
+            bottom: 20px;*/
             height: 16px;
             width: 70px;
         }

@@ -38,7 +38,7 @@
   }
   
   .practice_list_container > img {
-    max-width: 50%;
+    max-width: 48%;
     /*max-height: 594px;*/
     object-fit: contain;
   }
@@ -51,20 +51,22 @@
     display: flex;
     flex-direction: column;
     align-items: flex-start;
-    max-width: 717px;
-    padding: 35px 0px 35px 50px;
+    max-width: 100%;
+    padding: 35px 15px;
   }
   
   .practice_list > li:hover {
     position: relative;
-    background: url('../img/background/practice_list-background.webp') center / cover no-repeat;
+    /*background: url('../img/background/practice_list-background.webp') center / cover no-repeat;*/
+    background-color: #FFFFFF;
+    clip-path: polygon(0% 0%, 96% 1%, 97% 1%, 98% 4%, 99% 9%, 99% 12%, 99% 15%, 98% 19%, 97% 23%, 97% 27%, 97% 33%, 98% 36%, 98% 41%, 99% 47%, 99% 53%, 98% 60%, 98% 66%, 97% 72%, 97% 79%, 97% 84%, 98% 91%, 99% 94%, 99% 99%, 0% 100%);
   }
   
   .practice_list > li:hover::before {
     position: absolute;
     content: '';
-    right: 67px;
-    bottom: 23px;
+    right: 25px;
+    bottom: 10px;
     height: 24px;
     width: 102px;
     background: url('../img/arrow.webp') center/cover no-repeat;
