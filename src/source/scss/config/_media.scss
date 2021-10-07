@@ -1,10 +1,11 @@
-@media screen and (max-width: 1376px ) and (min-width: 1280px){
+@media screen and (max-width: 1376px ) and (min-width: 831px){
     .wrapper {
         max-width: 100%;
     }
 
     .navigation {
         padding: 15px 70px;
+        justify-content: space-between;
         width: 100%;
 
         .logo {
@@ -14,6 +15,10 @@
 
         .navigation-menu {
             font-size: 20px;
+        }
+
+        .navigation-menu > li {
+            margin: 0 10px;
         }
 
         .navigation-menu > li:hover::after {
@@ -29,6 +34,7 @@
 
     .main-menu {
         justify-content: center;
+        flex-wrap: wrap;
         padding: 50px 150px;        
     }
 
@@ -37,7 +43,7 @@
         padding: 10px 20px 20px;
 
         &_list > li {
-            width: 500px;
+            max-width: 500px;
             height: 180px;
             padding: 15px 0px 15px 30px;
         }
@@ -60,22 +66,22 @@
         }
           
         &_list_text {
-            width: 400px;
+            max-width: 400px;
             font-size: 20px;
         }
-        
+
     }
 
     .music {
         
         .audio-container > img {
-            width: 723px;
-            height: 741px;
+            max-width: 50%;
+           /* height: 741px;*/
         }
 
         .audio-cover {
-            margin: 35px 0;
-            width: 450px;
+            /*margin: 25px 0;*/
+            max-width: 450px;
             height: 100px;
         }
         
@@ -117,14 +123,17 @@
 
         .skill-card-left {
             margin: 20px 0px;
-            width: 500px;
+            padding: 25px 35px;
+            max-width: 45%/*500px*/;
             height: max-content;
+            z-index: 5;
         }
 
         .skill-card-right {
             margin: 20px 0px;
-            width: 500px;
+            max-width: 45%/*500px*/;
             height: max-content;
+            z-index: 5;
         }
 
         .skill-title {
@@ -139,21 +148,24 @@
         .meditation-skills::after {
             left: calc(50% - 140px);
             height: 758px;
-            width: 320px;
-          }
+            max-width: 300px;
+            background-size: 80%;
+            z-index: 0;
+        }
+
     }
 
     .transform {
-        padding: 34px 200px;
+        padding: 34px 150px;
 
         &-text {
             margin-bottom: 30px;
         }
         
-        .item-image {
+        /*.item-image {
             width: 503px;
             height: 354px;
-        }
+        }*/
         
         .item-title {
             margin-bottom: 15px;
@@ -162,7 +174,7 @@
         }
         
         .item-text {
-            width: 450px;
+            /*width: 450px;*/
             font-size: 20px;
         }
     }
@@ -203,13 +215,14 @@
 
 @media screen and (max-width: 830px) and (min-width: 520px){
 
-    .wrapper {
+   /* .wrapper {
         width: 100%;
-    }
+    }*/
 
     .navigation {
         position: fixed;
         padding: 10px 15px;
+        justify-content: space-between;
         width: 100%;
         z-index: 5;
 
@@ -232,12 +245,12 @@
         padding-top: 90px;
 
         &_title {
-            width: 480px;
+           /* width: 480px;*/
             font-size: 55px;
         }
 
         &_text {
-            width: 500px;
+           /* width: 500px;*/
             font-size: 17px;
         }
 
@@ -260,17 +273,17 @@
         padding: 10px 20px 20px;
 
         &_title {
-            width: 480px;
+            /*width: 480px;*/
             font-size: 55px;
         }
 
         &_text {
-            width: 500px;
+           /* width: 500px;*/
             font-size: 17px;
         }
 
         &_list > li {
-            width: 500px;
+            /*width: 500px;*/
             height: 180px;
             padding: 15px 0px 15px 30px;
         }
@@ -310,14 +323,15 @@
     }
 
     .music {
+        padding: 10px 20px 20px;
 
         &_title {
-            width: 480px;
+            /*width: 480px;*/
             font-size: 55px;
         }
 
         &_text {
-            width: 500px;
+           /* width: 500px;*/
             font-size: 17px;
         }
         
@@ -372,12 +386,12 @@
         height: max-content;
 
         &-title {
-            width: 480px;
+           /* width: 480px;*/
             font-size: 55px;
         }
 
         &-text {
-            width: 500px;
+           /* width: 500px;*/
             font-size: 17px;
             margin-bottom: 30px;
         }
@@ -389,13 +403,13 @@
 
         .skill-card-left {
             margin: 20px 0px;
-            width: 500px;
+            max-width: 500px;
             height: max-content;
         }
 
         .skill-card-right {
             margin: 20px 0px;
-            width: 500px;
+            max-width: 500px;
             height: max-content;
         }
 
@@ -414,15 +428,15 @@
     }
 
     .transform {
-        padding: 34px 200px;
+        padding: 34px;
 
         &-title {
-            width: 480px;
+            /*width: 480px;*/
             font-size: 55px;
         }
 
         &-text {
-            width: 500px;
+            /*width: 500px;*/
             font-size: 17px;
             margin-bottom: 30px;
         }
@@ -434,10 +448,14 @@
         .right-image {
             flex-direction: column;
         }
+
+        .image-information {
+            width: 80%;
+        }
         
         .item-image {
-            width: 301px;
-            height: 227px;
+            /*width: 301px;
+            height: 227px;*/
             margin-bottom: 20px;
         }
         
@@ -448,7 +466,7 @@
         }
         
         .item-text {
-            width: 300px;
+            /*width: 300px;*/
             font-size: 12px;
         }
     }
@@ -505,14 +523,15 @@
     }
 }
 
-@media screen and (max-width: 415px) {
-    .wrapper {
+@media screen and (max-width: 519px) and (min-width: 321px){
+    /*.wrapper {
         max-width: 100%;
-    }
+    }*/
 
     .navigation {
         position: fixed;
         padding: 10px 15px;
+        justify-content: space-between;
         width: 100%;
         z-index: 5;
 
@@ -535,12 +554,12 @@
         padding-top: 90px;
 
         &_title {
-            width: 320px;
+           /* width: 320px;*/
             font-size: 34px;
         }
 
         &_text {
-            width: 320px;
+            /*width: 320px;*/
             font-size: 12px;
         }
 
@@ -557,7 +576,7 @@
         padding: 50px 150px;
 
         .card {
-            width: 280px;
+            /*width: 280px;*/
             height: 400px;
         }
         
@@ -567,7 +586,7 @@
         }
         
         .card-text {
-            width: 250px;
+            /*width: 250px;*/
             font-size: 14px;
         }
         
@@ -578,22 +597,23 @@
         padding: 10px 20px 20px;
 
         &_title {
-            width: 320px;
+            /*width: 320px;*/
             font-size: 34px;
         }
 
         &_text {
-            width: 320px;
+            /*width: 320px;*/
             font-size: 12px;
         }
 
         &_list_container {
             flex-direction: column;
+            align-items: center;
         }
 
         &_list_container > img {
-            width: 305px;
-            height: 214px;
+            /*width: 305px;
+            height: 214px;*/
         }
 
         &_list > li {
@@ -689,24 +709,23 @@
         padding: 45px 20px;
 
         &-title {
-            width: 320px;
+            /*width: 320px;*/
             font-size: 34px;
         }
 
         &-text {
-            width: 320px;
+           /* width: 320px;*/
             margin-bottom: 20px;
             font-size: 12px;
         }
 
         &-skills {
-            display: flex;
-          
-            flex-wrap: wrap;
-            justify-content: space-between;
+            /*display: flex;
+            flex-wrap: wrap;*/
+            justify-content: center;
             align-items: center;
-            position: relative;
-            width: 100%;
+            /*position: relative;
+            width: 100%;*/
             height: max-content;
           }
           
@@ -717,14 +736,14 @@
         .skill-card-left {
             margin: 20px 0px;
             padding: 5px 15px;
-            width: 320px;
+            max-width: 320px;
             height: max-content;
         }
 
         .skill-card-right {
             margin: 20px 0px;
             padding: 5px 15px;
-            width: 320px;
+            max-width: 320px;
             height: max-content;
         }
 
@@ -761,9 +780,14 @@
         }
         
         .item-image {
-            width: 301px;
+            /*width: 301px;*/
+            max-width: 80%;
             height: 227px;
             margin-bottom: 20px;
+        }
+
+        .image-information {
+            max-width: 80%;
         }
         
         .item-title {

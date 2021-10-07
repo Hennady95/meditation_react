@@ -18,7 +18,7 @@
   }
   
   .meditation-text {
-    width: 1105px;
+    max-width: 1105px;
     margin-bottom: 70px;
     font-family: Heebo;
     font-style: normal;
@@ -31,7 +31,6 @@
   
   .meditation-skills {
     display: flex;
-  
     flex-wrap: wrap;
     justify-content: space-between;
     align-items: center;

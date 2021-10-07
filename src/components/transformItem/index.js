@@ -5,7 +5,7 @@ export const TransformItem = ({img, title, text, leftPosition}) => {
 
     return <div className = {`${leftPosition ? "left-image" : "right-image"}`}>
         <img src = {img} alt = {title} className = "item-image"/>
-        <div className>
+        <div className = "image-information">
             <p className = "item-title">{title}</p>
             {text.map((item) => <p className = "item-text" key = {item}>{item}</p>)}
             <SimpleButton text = "Learn more" height = "55px" width = "210px"/>

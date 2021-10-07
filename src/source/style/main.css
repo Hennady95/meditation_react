@@ -4,7 +4,7 @@
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  width: 650px;
+  max-width: 650px;
   height: 150px;
   background: -webkit-gradient(linear, left top, right top, color-stop(27.22%, #C3E2DE), color-stop(48.89%, #CFF1ED), color-stop(96.77%, #EDFBF9));
   background: linear-gradient(90deg, #C3E2DE 27.22%, #CFF1ED 48.89%, #EDFBF9 96.77%);
@@ -79,7 +79,7 @@
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  width: 420px;
+  max-width: 420px;
   height: 540px;
   padding: 50px 48px;
   background: #C4C4C4;
@@ -87,13 +87,13 @@
 }
 
 .menu-icon {
-  width: 100px;
+  max-width: 100px;
   height: 100px;
   margin-bottom: 20px;
 }
 
 .card-text {
-  width: 324px;
+  max-width: 324px;
   height: 92px;
   font-family: Heebo;
   font-style: normal;
@@ -138,7 +138,8 @@
 .skill-card-left {
   margin: 20px 0px;
   padding: 25px 35px 25px 79px;
-  width: 597px;
+  max-width: 47%;
+  /*597px;*/
   height: 200px;
   text-align: right;
   background: -webkit-gradient(linear, right top, left top, color-stop(26.37%, #C3EEE8), color-stop(63.87%, rgba(195, 226, 222, 0.75)), color-stop(103.6%, rgba(231, 243, 242, 0.4)));
@@ -149,7 +150,8 @@
 .skill-card-right {
   margin: 20px 0;
   padding: 25px 79px 25px 35px;
-  width: 597px;
+  max-width: 47%;
+  /*597px;*/
   height: 200px;
   text-align: left;
   background: -webkit-gradient(linear, left top, right top, color-stop(26.37%, #C3EEE8), color-stop(63.87%, rgba(195, 226, 222, 0.75)), color-stop(103.6%, rgba(231, 243, 242, 0.4)));
@@ -209,10 +211,14 @@
 }
 
 .item-image {
-  width: 703px;
-  height: 554px;
+  max-width: 50%;
+  /*height: 554px;*/
   -o-object-fit: contain;
      object-fit: contain;
+}
+
+.image-information {
+  max-width: 50%;
 }
 
 .item-title {
@@ -226,7 +232,7 @@
 }
 
 .item-text {
-  width: 619px;
+  max-width: 619px;
   font-family: Heebo;
   font-style: normal;
   font-weight: normal;
@@ -243,7 +249,7 @@
 }
 
 .wrapper {
-  width: 1920px;
+  max-width: 1920px;
   margin: 0 auto;
   background: rgba(59, 209, 187, 0.09);
 }
@@ -710,13 +716,13 @@ textarea {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  padding: 10px 150px;
+  padding: 10px;
+  /*150px;*/
   background: #FFFFFF;
   -webkit-box-shadow: 0px 25px 40px rgba(26, 127, 114, 0.1);
           box-shadow: 0px 25px 40px rgba(26, 127, 114, 0.1);
@@ -841,7 +847,7 @@ textarea {
 }
 
 .hero-section_title {
-  width: 758px;
+  max-width: 758px;
   margin: 0 auto;
   font-family: Merienda One;
   font-style: normal;
@@ -854,7 +860,7 @@ textarea {
 }
 
 .hero-section_text {
-  width: 1109px;
+  max-width: 1109px;
   margin: 22px auto 0;
   font-family: Heebo;
   font-style: normal;
@@ -879,10 +885,13 @@ textarea {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
-  padding: 122px 150px;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  /*padding: 122px 120px;*/
 }
 
 .main-menu > .card:nth-child(1) {
@@ -913,7 +922,7 @@ textarea {
 }
 
 .practice_title {
-  width: 706px;
+  max-width: 706px;
   margin-bottom: 22px;
   font-family: Merienda One;
   font-style: normal;
@@ -925,7 +934,7 @@ textarea {
 }
 
 .practice_text {
-  width: 1105px;
+  max-width: 1105px;
   height: 62px;
   margin-bottom: 70px;
   font-family: Heebo;
@@ -948,8 +957,8 @@ textarea {
 }
 
 .practice_list_container > img {
-  width: 745px;
-  height: 594px;
+  max-width: 50%;
+  /*max-height: 594px;*/
   -o-object-fit: contain;
      object-fit: contain;
 }
@@ -969,7 +978,7 @@ textarea {
   -webkit-box-align: start;
       -ms-flex-align: start;
           align-items: flex-start;
-  width: 717px;
+  max-width: 717px;
   padding: 35px 0px 35px 50px;
 }
 
@@ -1000,7 +1009,7 @@ textarea {
 }
 
 .practice_list_text {
-  width: 619px;
+  max-width: 619px;
   font-family: Heebo;
   font-style: normal;
   font-weight: normal;
@@ -1035,7 +1044,7 @@ textarea {
 }
 
 .music_text {
-  width: 1105px;
+  max-width: 1105px;
   font-family: Heebo;
   font-style: normal;
   font-weight: normal;
@@ -1049,11 +1058,17 @@ textarea {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
 .audio-container > img {
-  width: 923px;
-  height: 941px;
+  max-width: 923px;
+  /*height: 941px;*/
   -o-object-fit: contain;
      object-fit: contain;
 }
@@ -1101,7 +1116,7 @@ textarea {
 }
 
 .meditation-text {
-  width: 1105px;
+  max-width: 1105px;
   margin-bottom: 70px;
   font-family: Heebo;
   font-style: normal;
@@ -1155,7 +1170,7 @@ textarea {
 }
 
 .transform-title {
-  width: 578px;
+  max-width: 578px;
   margin-bottom: 22px;
   font-family: Merienda One;
   font-style: normal;
@@ -1172,7 +1187,7 @@ textarea {
 }
 
 .transform-text {
-  width: 1105px;
+  max-width: 1105px;
   margin-bottom: 70px;
   font-family: Heebo;
   font-style: normal;
@@ -1258,12 +1273,15 @@ textarea {
   margin: 40px;
 }
 
-@media screen and (max-width: 1376px) and (min-width: 1280px) {
+@media screen and (max-width: 1376px) and (min-width: 831px) {
   .wrapper {
     max-width: 100%;
   }
   .navigation {
     padding: 15px 70px;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
     width: 100%;
   }
   .navigation .logo {
@@ -1272,6 +1290,9 @@ textarea {
   }
   .navigation .navigation-menu {
     font-size: 20px;
+  }
+  .navigation .navigation-menu > li {
+    margin: 0 10px;
   }
   .navigation .navigation-menu > li:hover::after {
     bottom: -34px;
@@ -1284,6 +1305,8 @@ textarea {
     -webkit-box-pack: center;
         -ms-flex-pack: center;
             justify-content: center;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
     padding: 50px 150px;
   }
   .practice {
@@ -1291,7 +1314,7 @@ textarea {
     padding: 10px 20px 20px;
   }
   .practice_list > li {
-    width: 500px;
+    max-width: 500px;
     height: 180px;
     padding: 15px 0px 15px 30px;
   }
@@ -1310,16 +1333,16 @@ textarea {
     line-height: 32px;
   }
   .practice_list_text {
-    width: 400px;
+    max-width: 400px;
     font-size: 20px;
   }
   .music .audio-container > img {
-    width: 723px;
-    height: 741px;
+    max-width: 50%;
+    /* height: 741px;*/
   }
   .music .audio-cover {
-    margin: 35px 0;
-    width: 450px;
+    /*margin: 25px 0;*/
+    max-width: 450px;
     height: 100px;
   }
   .music .cover-shadow {
@@ -1355,17 +1378,20 @@ textarea {
   }
   .meditation .skill-card-left {
     margin: 20px 0px;
-    width: 500px;
+    padding: 25px 35px;
+    max-width: 45%;
     height: -webkit-max-content;
     height: -moz-max-content;
     height: max-content;
+    z-index: 5;
   }
   .meditation .skill-card-right {
     margin: 20px 0px;
-    width: 500px;
+    max-width: 45%;
     height: -webkit-max-content;
     height: -moz-max-content;
     height: max-content;
+    z-index: 5;
   }
   .meditation .skill-title {
     font-size: 26px;
@@ -1377,17 +1403,19 @@ textarea {
   .meditation .meditation-skills::after {
     left: calc(50% - 140px);
     height: 758px;
-    width: 320px;
+    max-width: 300px;
+    background-size: 80%;
+    z-index: 0;
   }
   .transform {
-    padding: 34px 200px;
+    padding: 34px 150px;
+    /*.item-image {
+            width: 503px;
+            height: 354px;
+        }*/
   }
   .transform-text {
     margin-bottom: 30px;
-  }
-  .transform .item-image {
-    width: 503px;
-    height: 354px;
   }
   .transform .item-title {
     margin-bottom: 15px;
@@ -1395,7 +1423,7 @@ textarea {
     line-height: 30px;
   }
   .transform .item-text {
-    width: 450px;
+    /*width: 450px;*/
     font-size: 20px;
   }
   .footer {
@@ -1427,12 +1455,15 @@ textarea {
 }
 
 @media screen and (max-width: 830px) and (min-width: 520px) {
-  .wrapper {
-    width: 100%;
-  }
+  /* .wrapper {
+        width: 100%;
+    }*/
   .navigation {
     position: fixed;
     padding: 10px 15px;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
     width: 100%;
     z-index: 5;
   }
@@ -1453,11 +1484,11 @@ textarea {
     padding-top: 90px;
   }
   .hero-section_title {
-    width: 480px;
+    /* width: 480px;*/
     font-size: 55px;
   }
   .hero-section_text {
-    width: 500px;
+    /* width: 500px;*/
     font-size: 17px;
   }
   .hero-section::after {
@@ -1483,15 +1514,15 @@ textarea {
     padding: 10px 20px 20px;
   }
   .practice_title {
-    width: 480px;
+    /*width: 480px;*/
     font-size: 55px;
   }
   .practice_text {
-    width: 500px;
+    /* width: 500px;*/
     font-size: 17px;
   }
   .practice_list > li {
-    width: 500px;
+    /*width: 500px;*/
     height: 180px;
     padding: 15px 0px 15px 30px;
   }
@@ -1526,12 +1557,15 @@ textarea {
     width: 400px;
     font-size: 20px;
   }
+  .music {
+    padding: 10px 20px 20px;
+  }
   .music_title {
-    width: 480px;
+    /*width: 480px;*/
     font-size: 55px;
   }
   .music_text {
-    width: 500px;
+    /* width: 500px;*/
     font-size: 17px;
   }
   .music .audio-container {
@@ -1587,11 +1621,11 @@ textarea {
     height: max-content;
   }
   .meditation-title {
-    width: 480px;
+    /* width: 480px;*/
     font-size: 55px;
   }
   .meditation-text {
-    width: 500px;
+    /* width: 500px;*/
     font-size: 17px;
     margin-bottom: 30px;
   }
@@ -1605,14 +1639,14 @@ textarea {
   }
   .meditation .skill-card-left {
     margin: 20px 0px;
-    width: 500px;
+    max-width: 500px;
     height: -webkit-max-content;
     height: -moz-max-content;
     height: max-content;
   }
   .meditation .skill-card-right {
     margin: 20px 0px;
-    width: 500px;
+    max-width: 500px;
     height: -webkit-max-content;
     height: -moz-max-content;
     height: max-content;
@@ -1628,14 +1662,14 @@ textarea {
     display: none;
   }
   .transform {
-    padding: 34px 200px;
+    padding: 34px;
   }
   .transform-title {
-    width: 480px;
+    /*width: 480px;*/
     font-size: 55px;
   }
   .transform-text {
-    width: 500px;
+    /*width: 500px;*/
     font-size: 17px;
     margin-bottom: 30px;
   }
@@ -1651,9 +1685,12 @@ textarea {
         -ms-flex-direction: column;
             flex-direction: column;
   }
+  .transform .image-information {
+    width: 80%;
+  }
   .transform .item-image {
-    width: 301px;
-    height: 227px;
+    /*width: 301px;
+            height: 227px;*/
     margin-bottom: 20px;
   }
   .transform .item-title {
@@ -1662,7 +1699,7 @@ textarea {
     line-height: 27px;
   }
   .transform .item-text {
-    width: 300px;
+    /*width: 300px;*/
     font-size: 12px;
   }
   .footer {
@@ -1716,13 +1753,16 @@ textarea {
   }
 }
 
-@media screen and (max-width: 415px) {
-  .wrapper {
-    max-width: 100%;
-  }
+@media screen and (max-width: 519px) and (min-width: 321px) {
+  /*.wrapper {
+        max-width: 100%;
+    }*/
   .navigation {
     position: fixed;
     padding: 10px 15px;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
     width: 100%;
     z-index: 5;
   }
@@ -1743,11 +1783,11 @@ textarea {
     padding-top: 90px;
   }
   .hero-section_title {
-    width: 320px;
+    /* width: 320px;*/
     font-size: 34px;
   }
   .hero-section_text {
-    width: 320px;
+    /*width: 320px;*/
     font-size: 12px;
   }
   .hero-section::after {
@@ -1764,7 +1804,7 @@ textarea {
     padding: 50px 150px;
   }
   .main-menu .card {
-    width: 280px;
+    /*width: 280px;*/
     height: 400px;
   }
   .main-menu .menu-icon {
@@ -1772,7 +1812,7 @@ textarea {
     height: 70px;
   }
   .main-menu .card-text {
-    width: 250px;
+    /*width: 250px;*/
     font-size: 14px;
   }
   .practice {
@@ -1780,11 +1820,11 @@ textarea {
     padding: 10px 20px 20px;
   }
   .practice_title {
-    width: 320px;
+    /*width: 320px;*/
     font-size: 34px;
   }
   .practice_text {
-    width: 320px;
+    /*width: 320px;*/
     font-size: 12px;
   }
   .practice_list_container {
@@ -1792,10 +1832,13 @@ textarea {
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
             flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
   }
   .practice_list_container > img {
-    width: 305px;
-    height: 214px;
+    /*width: 305px;
+            height: 214px;*/
   }
   .practice_list > li {
     width: 300px;
@@ -1878,28 +1921,25 @@ textarea {
     padding: 45px 20px;
   }
   .meditation-title {
-    width: 320px;
+    /*width: 320px;*/
     font-size: 34px;
   }
   .meditation-text {
-    width: 320px;
+    /* width: 320px;*/
     margin-bottom: 20px;
     font-size: 12px;
   }
   .meditation-skills {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -ms-flex-wrap: wrap;
-        flex-wrap: wrap;
-    -webkit-box-pack: justify;
-        -ms-flex-pack: justify;
-            justify-content: space-between;
+    /*display: flex;
+            flex-wrap: wrap;*/
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center;
-    position: relative;
-    width: 100%;
+    /*position: relative;
+            width: 100%;*/
     height: -webkit-max-content;
     height: -moz-max-content;
     height: max-content;
@@ -1910,7 +1950,7 @@ textarea {
   .meditation .skill-card-left {
     margin: 20px 0px;
     padding: 5px 15px;
-    width: 320px;
+    max-width: 320px;
     height: -webkit-max-content;
     height: -moz-max-content;
     height: max-content;
@@ -1918,7 +1958,7 @@ textarea {
   .meditation .skill-card-right {
     margin: 20px 0px;
     padding: 5px 15px;
-    width: 320px;
+    max-width: 320px;
     height: -webkit-max-content;
     height: -moz-max-content;
     height: max-content;
@@ -1955,9 +1995,13 @@ textarea {
             flex-direction: column;
   }
   .transform .item-image {
-    width: 301px;
+    /*width: 301px;*/
+    max-width: 80%;
     height: 227px;
     margin-bottom: 20px;
+  }
+  .transform .image-information {
+    max-width: 80%;
   }
   .transform .item-title {
     margin-bottom: 5px;

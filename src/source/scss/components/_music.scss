@@ -17,7 +17,7 @@
   }
   
   .music_text {
-    width: 1105px;
+    max-width: 1105px;
     font-family: Heebo;
     font-style: normal;
     font-weight: normal;
@@ -29,11 +29,13 @@
   
   .audio-container {
     display: flex;
+    justify-content: center;
+    align-items: center;
   }
   
   .audio-container > img {
-    width: 923px;
-    height: 941px;
+    max-width: 923px;
+    /*height: 941px;*/
     object-fit: contain;
   }
   

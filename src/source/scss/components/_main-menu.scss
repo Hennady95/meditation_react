@@ -1,7 +1,8 @@
 .main-menu {
     display: flex;
-    justify-content: space-between;
-    padding: 122px 150px;
+    justify-content: center;
+    align-items: center;
+    /*padding: 122px 120px;*/
   }
   .main-menu > .card:nth-child(1) {
     background: url('../img/background/main-menu-first-background.webp') center / cover no-repeat;
